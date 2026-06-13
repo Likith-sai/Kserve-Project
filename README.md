@@ -21,6 +21,7 @@ A production-ready machine learning model serving platform built with **KServe**
 ## 🎯 Overview
 
 This project provides a containerized ML model serving application that:
+- **Pre-Requisite** You should have already experiment tracking on mlflow(could be locally or cloud). If it is in cloud. kindly change the experiment_uri tracking in model.py
 - **Loads pre-trained models** from MLflow Model Registry
 - **Serves predictions** via REST API using FastAPI
 - **Runs on Kubernetes** via KServe InferenceService
